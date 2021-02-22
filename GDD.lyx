@@ -100,9 +100,70 @@ The Story
 This is will be a light comic game about cooking while cats are interfering
  with you work.
  From the human-actor's point of view s/he is trying to cook but from the
- point of view of the cat/s they are the master of the house, everything
+ point of view of the cats they are the master of the house, everything
  that is done in the house is to serve them.
- The should underline this theme constantly in a variety of ways 
+ This theme should be underlined constantly in a variety of ways.
+\end_layout
+
+\begin_layout Section
+Game Play
+\end_layout
+
+\begin_layout Standard
+One can play the game in one of two modes
+\end_layout
+
+\begin_layout Enumerate
+As the human - first person.
+\end_layout
+
+\begin_layout Enumerate
+As a cat - third person.
+\end_layout
+
+\begin_layout Standard
+As a human you have a task to do and the cat plays its part as an AI.
+ We see the cat's thoughts only at key points of the story/task.
+ As a cat We get the tasks as 
+\begin_inset Quotes eld
+\end_inset
+
+thought
+\begin_inset Quotes erd
+\end_inset
+
+ bubbles and we are also exposed to 
+\begin_inset Quotes eld
+\end_inset
+
+cat thought
+\begin_inset Quotes erd
+\end_inset
+
+ along the way e.g if the task is to find a nice place to sleep in the kitchen
+ you could have a random thought about the content of the refrigerator when
+ you are close to it, and it is the player can choose to act on this thought.
+\end_layout
+
+\begin_layout Section
+Example Scene - Make a Tuna Sandwich
+\end_layout
+
+\begin_layout Standard
+In this section a scene is described from start to end.
+ In the next section the mechanics for every part will be describes along
+ with the options for the minimal viable product (MVP) .
+\end_layout
+
+\begin_layout Section
+Game Mechanics
+\end_layout
+
+\begin_layout Standard
+As a human navigating the house should not be the interesting part of the
+ the game thus this will be done without the player control.
+ I have to decide if this will be done using cinematics or by dip to black/white
+/other cinematic effect.
 \end_layout
 
 \end_body
