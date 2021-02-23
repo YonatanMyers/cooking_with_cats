@@ -62,7 +62,7 @@
 \rightmargin 2cm
 \bottommargin 2cm
 \headheight 0.5cm
-\headsep 0.5cm
+\headsep 1cm
 \footskip 0.5cm
 \secnumdepth 3
 \tocdepth 3
@@ -88,12 +88,17 @@
 Cooking With Cats - Game Design Document
 \end_layout
 
-\begin_layout Chapter
-Overview
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Section
-The Story
+\begin_layout Chapter
+Overview
 \end_layout
 
 \begin_layout Standard
@@ -105,26 +110,11 @@ This is will be a light comic game about cooking while cats are interfering
  This theme should be underlined constantly in a variety of ways.
 \end_layout
 
-\begin_layout Section
-Game Play
-\end_layout
-
 \begin_layout Standard
-One can play the game in one of two modes
-\end_layout
-
-\begin_layout Enumerate
-As the human - first person.
-\end_layout
-
-\begin_layout Enumerate
-As a cat - third person.
-\end_layout
-
-\begin_layout Standard
-As a human you have a task to do and the cat plays its part as an AI.
- We see the cat's thoughts only at key points of the story/task.
- As a cat We get the tasks as 
+The game can be played in one of two modes, as the human or as a cat.
+ As a human you have a task to do and the cat plays its part as an AI actor.
+ In this mode we see the cat's thoughts only at key points of the story/task.
+ As a cat we get the tasks as 
 \begin_inset Quotes eld
 \end_inset
 
@@ -145,25 +135,218 @@ cat thought
  you are close to it, and it is the player can choose to act on this thought.
 \end_layout
 
-\begin_layout Section
-Example Scene - Make a Tuna Sandwich
+\begin_layout Standard
+For example the humans task could be to make a salad with tuna in it.
+ The cat detects this, and like the cunning creature that it is pretends
+ to continue sleeping until the tuna can is open and placed on the table.
+ Then it 
+\begin_inset Quotes eld
+\end_inset
+
+accidentally pushes something over in the living roam, and hides.
+ hen the human comes to deal with the mess in the living room the cat sneaks
+ in to the kitchen to steal tuna.
 \end_layout
 
 \begin_layout Standard
-In this section a scene is described from start to end.
- In the next section the mechanics for every part will be describes along
- with the options for the minimal viable product (MVP) .
-\end_layout
-
-\begin_layout Section
-Game Mechanics
+As the point of the game is to focus on the cat-human interaction some of
+ the trivial actions will be simplified so that when the actor is going
+ from one place to an other the player does not have control them precisely.
+ The same goes for the cooking actions.
+ this is not a skill based game.
+ The point is on the player decisions.
+ 
 \end_layout
 
 \begin_layout Standard
-As a human navigating the house should not be the interesting part of the
- the game thus this will be done without the player control.
- I have to decide if this will be done using cinematics or by dip to black/white
-/other cinematic effect.
+The game will have somewhat realistic geometry/house layout, but it will
+ resemble a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+mbox{
+\end_layout
+
+\end_inset
+
+cartoon
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ look as far as lighting and shading.
+\end_layout
+
+\begin_layout Chapter
+The Story
+\end_layout
+
+\begin_layout Section
+Story Outline
+\end_layout
+
+\begin_layout Standard
+Most 
+\begin_inset Quotes eld
+\end_inset
+
+cat owners
+\begin_inset Quotes erd
+\end_inset
+
+ know that they are not the master of the house.
+ A cat is more like a companion that a pet.
+ This is best conveyed in the joke:
+\end_layout
+
+\begin_layout Description
+Dog: They pet me, play with me, feed me and give me a worm place to sleep.
+ 
+\series bold
+They
+\series default
+ must be some kind of god.
+\end_layout
+
+\begin_layout Description
+Cat: They pet me, play with me, feed me and give me a worm place to sleep.
+ 
+\series bold
+I
+\series default
+ must be some kind of god.
+\end_layout
+
+\begin_layout Standard
+This is the starting point for the story of this game.
+ No mater if you play as the human or as the cat everything is bout the
+ cat(s).
+\end_layout
+
+\begin_layout Section
+The Characters
+\end_layout
+
+\begin_layout Subsection
+The Cat
+\end_layout
+
+\begin_layout Standard
+The cat(s) are each should have a slightly different personality but the
+ underlining traits are:
+\end_layout
+
+\begin_layout Enumerate
+An endless want for certain types of food.
+\end_layout
+
+\begin_layout Enumerate
+A slightly cruel homer e.g.
+ they find it funny to trip up the human, but they never show there satisfaction
+ as...
+\end_layout
+
+\begin_layout Enumerate
+The cats are cool
+\end_layout
+
+\begin_layout Enumerate
+Highly intelligent.
+ They can plan may actions ahead.
+\end_layout
+
+\begin_layout Standard
+The cats have a number of over arching goals:
+\end_layout
+
+\begin_layout Enumerate
+Sleep as much as possible.
+\end_layout
+
+\begin_layout Enumerate
+Eat as much of there favorite foods
+\end_layout
+
+\begin_layout Enumerate
+Find nice places to rest.
+\end_layout
+
+\begin_layout Enumerate
+Play
+\end_layout
+
+\begin_layout Subsection
+The Human
+\end_layout
+
+\begin_layout Enumerate
+Think that they are in charge.
+\end_layout
+
+\begin_layout Enumerate
+Love the cats.
+\end_layout
+
+\begin_layout Enumerate
+Always forgive the cats for everything.
+\end_layout
+
+\begin_layout Enumerate
+Solve problems with only one step ahead in mined
+\end_layout
+
+\begin_layout Standard
+The human goals are
+\end_layout
+
+\begin_layout Enumerate
+Just want to get through the day.
+\end_layout
+
+\begin_layout Enumerate
+rest after a days work
+\end_layout
+
+\begin_layout Enumerate
+Make some nice food
+\end_layout
+
+\begin_layout Enumerate
+Take good care of the cat
+\end_layout
+
+\begin_layout Enumerate
+Have a 
+\begin_inset Quotes eld
+\end_inset
+
+normal
+\begin_inset Quotes erd
+\end_inset
+
+ house
+\end_layout
+
+\begin_layout Section
+Scenes
+\end_layout
+
+\begin_layout Chapter
+Game Play and Mechanic
+\end_layout
+
+\begin_layout Chapter
+Aesthetics and Design
 \end_layout
 
 \end_body
